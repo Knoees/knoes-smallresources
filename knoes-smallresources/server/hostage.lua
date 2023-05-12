@@ -1,3 +1,5 @@
+local QBCore = exports['qb-core']:GetCoreObject()
+
 local takingHostage = {}
 --takingHostage[source] = targetSource, source is takingHostage targetSource
 local takenHostage = {}
