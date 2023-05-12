@@ -2,7 +2,7 @@ RegisterNetEvent('knoes_discord_presence:get_data', function()
     local activePlayers = GetPlayers()
     local playerName = GetPlayerName(source)
     local maxServerCapacity = GetConvarInt("sv_maxClients", 48)
-    local template = 'ID: {ID} | İsim: {NAME} | {PLAYERS_COUNT}' -- {NAME}, {ID}, {PLAYERS_COUNT}
+    local template = 'ID: {ID} | Name: {NAME} | {PLAYERS_COUNT}' -- {NAME}, {ID}, {PLAYERS_COUNT}
 
     local replacements = {
         ["{ID}"] = source,
