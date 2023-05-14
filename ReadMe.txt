@@ -1,6 +1,6 @@
-Contents of the script
+# Contents of the script
 
-1 = New Discord Rich Preview : https://cdn.discordapp.com/attachments/1081604119241969724/1106565805728092170/image.png
+1 = New Discord Rich Preview :[image]( https://cdn.discordapp.com/attachments/1081604119241969724/1106565805728092170/image.png ) 
 2 = Easy Blips
 3 = Auto Delete Car
 4 = Show İd Preview : https://cdn.discordapp.com/attachments/1081604119241969724/1106568952185888808/image.png
