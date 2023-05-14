@@ -1,7 +1,8 @@
 # Contents of the script
 
 - New Discord Rich Preview :
- ![image]( https://cdn.discordapp.com/attachments/1081604119241969724/1106565805728092170/image.png ) 
+
+- ![image]( https://cdn.discordapp.com/attachments/1081604119241969724/1106565805728092170/image.png ) 
 - Easy Blips
 - Auto Delete Car
 - Show İd Preview : https://cdn.discordapp.com/attachments/1081604119241969724/1106568952185888808/image.png
