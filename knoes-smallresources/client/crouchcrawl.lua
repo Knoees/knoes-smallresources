@@ -484,11 +484,11 @@ end
 -- Commands & KeyMapping --
 CreateThread(function()
     if Config.CrouchKeybindEnabled then
-        RegisterKeyMapping('+crouch', Config.Localization['crouch_keymapping'], "keyboard", Config.CrouchKeybind)
-        RegisterCommand('+crouch', function() CrouchKeyPressed() end, false)
-        RegisterCommand('-crouch', function() end, false) -- This needs to be here to prevent errors/warnings
+        RegisterKeyMapping('+egil', Config.Localization['crouch_keymapping'], "keyboard", Config.CrouchKeybind)
+        RegisterCommand('+egil', function() CrouchKeyPressed() end, false)
+        RegisterCommand('-egil', function() end, false) -- This needs to be here to prevent errors/warnings
     end
-    RegisterCommand('crouch', function()
+    RegisterCommand('egil', function()
         if isCrouched then
             isCrouched = false
             return
@@ -496,15 +496,13 @@ CreateThread(function()
 
         AttemptCrouch(PlayerPedId())
     end, false)
-    TriggerEvent('chat:addSuggestion', '/crouch', Config.Localization['crouch_chat_suggestion'])
 
     if Config.CrawlKeybindEnabled then
-        RegisterKeyMapping('+crawl', Config.Localization['crawl_keymapping'], "keyboard", Config.CrawlKeybind)
-        RegisterCommand('+crawl', function() CrawlKeyPressed() end, false)
-        RegisterCommand('-crawl', function() end, false) -- This needs to be here to prevent errors/warnings
+        RegisterKeyMapping('+surun', Config.Localization['crawl_keymapping'], "keyboard", Config.CrawlKeybind)
+        RegisterCommand('+surun', function() CrawlKeyPressed() end, false)
+        RegisterCommand('-surun', function() end, false) -- This needs to be here to prevent errors/warnings
     end
-    RegisterCommand('crawl', function() CrawlKeyPressed() end, false)
-    TriggerEvent('chat:addSuggestion', '/crouch', Config.Localization['crawl_chat_suggestion'])
+    RegisterCommand('surun', function() CrawlKeyPressed() end, false)
 end)
 
 
